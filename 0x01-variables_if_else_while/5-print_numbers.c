@@ -1,4 +1,4 @@
-#include <stadio.h>
+#include <stdio.h>
 
 /**
  * main - Prints the numbers since 0 to 9
