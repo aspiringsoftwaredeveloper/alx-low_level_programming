@@ -1,7 +1,7 @@
-#include "stdio.h"
+#include <stdio.h>
 
 /**
- * main - check the code
+ * main - make the alphabet
  *
  * Return: Always 0.
  */
