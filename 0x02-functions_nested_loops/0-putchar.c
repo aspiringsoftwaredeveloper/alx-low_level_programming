@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Prints _putchar followed by new line 
  *
  * Return: Always 0
  */
@@ -19,4 +19,3 @@ int main(void)
 
 	return (0);
 }
-
