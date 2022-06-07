@@ -7,16 +7,15 @@
  */
 int main(void)
 {
-	char word[7] = "_putchar"
-		
-		int i;
-
-	for (i = 0; i < 7; i++)
-	{
-		_putchar(word[i]);
-	}
-
-	_putchar('\n');
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
 	return (0);
 }
