@@ -1,9 +1,10 @@
 #include "main.h"
+
  /**
-  * print_rev - prints a string in reverse order
-  * @s: A pointer to an int that will be changed
-  *
-  * Return: void which means our answer is correct
+  * print_rev - a function that prints a string, in reverse
+  * fcounter is to first count to end, n is to count to back
+  * @s: str input
+  * Return: dtring in reverse
   */
 
 void print_rev(char *s)
