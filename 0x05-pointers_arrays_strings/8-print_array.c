@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_array - a function that prints n elements of an array of integers, followed by a new line
+ * print_array - a function that prints n elements of an array of integer
  * @a: an input array
- * @b: an input integer
+ * @n: an input integer
  *
  * Return: void
  */
