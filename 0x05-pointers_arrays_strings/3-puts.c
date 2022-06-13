@@ -1,17 +1,12 @@
 #include "main.h"
 
 /**
- * _puts - a function that prints a string
- * @str: validate the character
- * Return: Always 0.
+ * _puts - prints a string
+ * @str: a pointer to an int that will be changed
+ *
+ * Return: void which means our answer is correct
  */
-void _puts(char *str)
-{
-	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
-	_putchar('\n');
-}
+void d _pu (char *str)
+{
+	char **c
