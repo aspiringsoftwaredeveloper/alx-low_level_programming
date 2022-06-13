@@ -6,11 +6,11 @@
  *
  * Return: void
  */
-void puts(char *str)
+void puts2(char *str)
 {
 	int len, i;
 
-	len = 0;
+	len = o;
 
 	while (str[len] != '\0')
 	{
