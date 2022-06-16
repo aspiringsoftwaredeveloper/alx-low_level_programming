@@ -7,7 +7,7 @@
  *
  * Return: void
  */
-void reverse_array(int *a, it n)
+void reverse_array(int *a, int n)
 {
 	int i = 0, t;
 
@@ -16,7 +16,7 @@ void reverse_array(int *a, it n)
 	{
 		t = *(a + i);
 		*(a + i) = *(a + n);
-		*(a +n) = t;
+		*(a + n) = t;
 		i++;
 		n--;
 	}
