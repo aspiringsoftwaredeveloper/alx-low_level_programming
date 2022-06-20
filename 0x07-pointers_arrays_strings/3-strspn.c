@@ -32,4 +32,6 @@ unsigned int _strspn(char *s, char *accept)
 			return (f);
 		}
 	}
+
+	return (0);
 }
