@@ -9,7 +9,7 @@
  *
  * Return: Pointer
  */
-char *_strduo(char *str)
+char *_strdup(char *str)
 {
 	int l, i;
 	char *s;
