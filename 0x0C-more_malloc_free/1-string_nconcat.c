@@ -8,7 +8,7 @@
  * @s2: string2
  * @n: n bytes of string 2
  *
- * Return: Pointer to allocated memory of s1 + nbytes of s2 
+ * Return: Pointer to allocated memory of s1 + nbytes of s2
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
@@ -16,7 +16,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	 char *s;
 	 char *nul = "";
 
-	 if (s1 ==NULL)
+	 if (s1 == NULL)
 	         s1 = nul;
 	 if (s2 == NULL)
 		 s2 = nul;
@@ -28,14 +28,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		 l2++;
 
 	 if (n < l2)
-		 l2 =n;
+		 l2 = n;
 
 	 s = malloc(sizeof(char) * (l1 + l2 + 1));
 
 	 if (s == 0)
 		 return (0);
+
 	 for (i = 0; i < l1; i++)
-		 *(s + j) = *(s2 + i);
+		 *(s + j) = *(s1 + i);
 	 
 	 for (i = 0, j = l1; i < l2; j++, i++)
 		 *(s + j) = *(s2 + i);
