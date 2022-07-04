@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * print_dog - Prints attributes of `d` dog. Prints "(nil)" if attributes has no
+ * print_dog - Prints attributes of 'd' dog. Prints "(nil)" if attributes has no
  * value
  * @d: Pointer to instance of struct dog
  */
