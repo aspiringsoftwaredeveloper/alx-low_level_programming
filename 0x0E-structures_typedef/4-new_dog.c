@@ -4,7 +4,7 @@
 /**
  *  du_string - Duplicates a string passed into a newly allocated space in
  *  memory
- *  @s: Pointer to the first character in the source string 
+ *  @s: Pointer to the first character in the source string
  *
  *  Return: Pointer to the first character in the newly allocated and copied
  *  string
