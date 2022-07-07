@@ -15,7 +15,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	va_list myList;
 
-	va_start(miList, n);
+	va_start(myList, n);
 
 	for (counter = 1; counter <= n; counter++)
 	{
@@ -31,7 +31,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		}
 		if (counter < n && separator)
 		{
-			printf("%s", separator)
+			printf("%s", separator);
 		}
 		else
 		{
