@@ -29,7 +29,7 @@ void print_all(const char * const format, ...)
 		switch (format[counter])
 		{
 	        case 'c':
-			printf("%c", va_arg(myLisy, int)), i = 1;
+			printf("%c", va_arg(myList, int)), i = 1;
 			break;
 		case 'i':
 		        printf("%d", va_arg(myList, int)), i = 1;
