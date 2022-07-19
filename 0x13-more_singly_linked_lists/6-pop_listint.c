@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 
 /**
  * pop_listint - Frees the node head node, making the second node the new head
