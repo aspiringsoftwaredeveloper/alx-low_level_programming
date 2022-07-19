@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * delete_modeint_at_index - Deleted node at certain index in a linked list
+ * delete_nodeint_at_index - Deleted node at certain index in a linked list
  * @head: Pointer to a pointer pointing to the first node in the list
  * @index: The index of the node to be freed
  *
